@@ -2,7 +2,7 @@ import { DetectionResult, Recommendation } from '../types';
 import { Groq } from 'groq-sdk';
 
 const groq = new Groq({
-  apiKey: "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",
+  apiKey: "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",
   dangerouslyAllowBrowser: true
 });
 
