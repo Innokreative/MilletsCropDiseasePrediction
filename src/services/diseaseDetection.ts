@@ -6,7 +6,7 @@ const groq = new Groq({
   dangerouslyAllowBrowser: true
 });
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://77b0-2409-4091-a000-5c01-13e0-3e6b-a5b7-99d9.ngrok-free.app';
 
 const getAIRecommendations = async (diseaseName: string, confidence: number): Promise<Recommendation> => {
   try {
