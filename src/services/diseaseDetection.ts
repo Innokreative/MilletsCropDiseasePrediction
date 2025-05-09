@@ -6,7 +6,7 @@ const groq = new Groq({
   dangerouslyAllowBrowser: true
 });
 
-const API_BASE_URL = 'https://milletscrop.onrender.com'
+const API_BASE_URL = 'http://localhost:5000';
 
 const getAIRecommendations = async (diseaseName: string, confidence: number): Promise<Recommendation> => {
   try {
